@@ -1,0 +1,98 @@
+--- CURSO DATA SCIENCE PLATZI ---
+
+Que es data science?
+
+Es el proceso de descrubir informacion valiosa por medio de los datos recopilados, se debe tener en cuenta
+el origen de los datos y la veracidad.
+
+Cual es su finalidad?
+
+1) Tomar decisiones y crear estrategias de negocio y asi sacar maximo provecho a nuestros datos.
+2) Crear productos de software mas inteligentes y funcionales.
+
+De que trata el proceso?
+
+1) Obtencion de los datos
+  . Mediciones directas
+  . Encuestas
+  . Internet
+  . Bases de datos propias
+2) Transformar y limpiar los datos
+  . Muchas veces los datos estaran incompletos o estaran en un formato incorrecto
+3) Explorar, analizar y visualizar datos
+  . Para poder hayar patrones o tendencias, para poder obtener insights que presentaremos a las personas del
+  negocio, a traves, de visualizaciones o reportes que sean amigables
+4) Usar modelos de machine learning* (La AI no siempre es necesario usarla)
+  . Con los modelos de machine learning vamos a poder predecir informacion
+5) Integrar datos de IA a productos de sofware
+  . Escalar los modelos IA por medio de productos de software basados en IA
+  
+Todo proceso de data science dependera del proyecto o de la empresa donde estemos trabajando
+
+---- PROCESO DE LA CIENCA DE DATOS ----
+
+
+1) Hacer una pregunta interesante
+2) Obtener los datos
+3) Explorar los datos
+4) Analizar los datos
+5) Comunicar y visualizar resultados
+
+Que es IA?
+
+Son algoritmos que buscan emular la inteligencia humana y reconocer patrones en grandes cantidades de datos.
+
+---- Proceso de ML ----
+
+Vamos a contar con dos tipos de datos, datos de entrenamiento y datos de entrada NO PUEDEN SER LOS MISMOS
+
+Los datos den entrenamiento se los vamos a pasar al algoritmo de machine learning, con estos datos lo que se
+busca es entrenar al algoritmo para que vaya aprendiendo, reconociendo patrones que hay dentro de los datos, Una
+vez el algoritmo de ML termine de entrenarse, nos arrojara un modelo con el cual podemos resolver problemas.
+Una vez tengamos el modelo, le vamos a pasar los datos de entrada y con esto vamos a generar predicciones sobre
+los datos de entrada. Cuando termine el proceso de prediccion, podemos evaluar nuestro modelo para saber que tan
+buena y precisa es la prediccion.
+
+---- Proceso de la ciencia de datos; Integral ML a productos
+
+Ingesta de datos -> Validacion de datos -> Preparacion de datos -> Entrenamiento del modelo ...
+->Evaluacion del modelo -> Validacion del modelo -> Despliegue del modelo -> Interfaz de usuario
+-------------------------------------------------------------------------------------------------------------------
+--- BIG DATA ---
+
+- Grande volumenes de datos, muy variados y veloces
+- Resulta complicado procesarlos con metodos tradicionales
+
+No todos los datos con los que trabajaremos sera big data, para ellos deben cumplir con las 5 V
+
+1) Volumen: EL almacenamiento de la masiva cantidad de datos que pueden ser recolectados de multiples
+fuentes
+
+2) Velodicad: Los datos de generan a tiempo real gracias a las interacciones con las fuentes
+mencionadas, por lo que deber ser procesados con las misma velocidad
+
+3) Variedad: Todo tipo de datos, ya sea estructurado o no estructurado. Pueden ser tablas, texto
+imagenes, video, audios, bases de datos, etc
+
+4) Veracidad: Es la calidad y confiabilidad de los datos.
+
+5) Los datos deben  poder proporcionar en valor o beneficio a la empresa que los estaran
+usando.
+
+PROCESAMIENTO DEL BIG DATA
+
+Se divide la informacion en pequenas partes y en varias maquinas con el fin de procesarlar paralelamente;
+tecnologias como apache spark, Hadoop y los servicios en la nube.
+
+
+DATA SCIENCE										IA										BIG DATA
+
+Procespo para analizar datos		Algoritmos para predecir eventos			Grande volumenes de datos muy
+y generar predicciones para			futuros que emulan la inteligencia			variados, veloces y dificiles
+la toma de decisiones y crear		humana.										de procesar.
+productos de valor por medio
+de estos datos.
+
+BIG DATA ES LA MATERIA PRIMA QUE PODEMOS USAR EN DATA SCIENCE PARA HACER ANALISIS EXHAUSTIVOS, PODEMOS USAR
+MACHINE LEARNING EN EL PROCESO PARA PERFECCIONAR Y EVALUAR LOS ALGORITMOS DE INTELIGENCIA ARTIFICIAL QUE CREEMOS
+

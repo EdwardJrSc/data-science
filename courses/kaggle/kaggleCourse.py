@@ -1,20 +1,20 @@
 import pandas as pd
 
 # Es creado por columnas, es una tabla
-pd.DataFrame({
-  'Yes': [1,2],
-  'No': [4,5]
-})
+#pd.DataFrame({
+#  'Yes': [1,2],
+#  'No': [4,5]
+#})
 
 # Es una sola columna de un DF
-pd.Series([212,221,321],
-          index = ['Picanto - Octubre',
-                   'Picanto - Noviembre',
-                   'Picanto - Diciembre'],
-          name = 'Kia ultimo semestre')
+#pd.Series([212,221,321],
+#          index = ['Picanto - Octubre',
+#                   'Picanto - Noviembre',
+#                   'Picanto - Diciembre'],
+#          name = 'Kia ultimo semestre')
 
-wine_reviews = pd.read_csv('../../resources/winemag-data_first150k.csv'
-                           ,index_col = 0)
+#wine_reviews = pd.read_csv('../../resources/winemag-data_first150k.csv'
+#                           ,index_col = 0)
 
 # Usamos el .shape para saber de que tamano es el archivo
 #print(wine_reviews.shape)
@@ -74,3 +74,5 @@ wine_reviews = pd.read_csv('../../resources/winemag-data_first150k.csv'
 
 # Me retorna las veces que se repite cada valor
 #print(wine_reviews.country.value_counts())
+
+#print(bool(0))
